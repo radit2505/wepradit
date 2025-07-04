@@ -1,0 +1,89 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #74ebd5, #9face6);
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    .container {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      border-bottom: 30px;
+      border-radius: 30px;
+      
+    }
+
+    .box {
+      color: rgb(2, 2, 2);
+      background-color: rgb(255, 255, 255);
+      padding: 30px;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgb(0, 0, 0);
+      width: 350px;
+      height: 430px;
+      
+      
+      
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      
+      
+    }
+
+    .nav-buttons {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      border: none;
+      
+    }
+
+    .nav-buttons a {
+      
+      margin: 0 5px;
+      text-decoration: none;
+      padding: 6px 12px;
+      background-color: #2f303268;
+      border: 1px solid #000000;
+      color: #000000;
+      border-radius: 19px;
+      
+    }
+
+    input[type="text"], select {
+      color: rgb(255, 255, 255);
+      
+      width: 100%;
+      padding: 5px;
+      border-radius: 20px;
+      
+      border: none;
+      background:black;
+      border: 2px solid #080707b1;
+     
+    }
+
+    .form-buttons {
+      text-align: center;
+      margin-top: 15px;
+      color: rgb(36, 130, 212);
+    }
+
+    input[type="submit"], input[type="reset"] {
+      
+      padding: 6px 12px;
+      margin: 0 5px;
+      border-radius: 20px;
+      border: none;
+    }
+ 

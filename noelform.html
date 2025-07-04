@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Nilai Mahasiswa</title>
+  <link rel="stylesheet" href="noelfrom.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>SELAMAT DATANG</h1>
+      <div class="nav-buttons">
+        <a href="From.html">Input Data Nilai</a>
+        <a href="table.html">Daftar Nilai</a>
+        <a href="login.html">Keluar</a>
+      </div>
+      <hr>
+      <h3> Input Nilai Mahasiswa</h3>
+      <form>
+        <table>
+          <tr>
+            <td>Nama</td>
+            <td> <input type="text" name="nama"required placeholder="Masukan Nama"></td>
+          </tr>
+          <tr>
+            <td>NIM</td>
+            <td> <input type="text" name="nim"required placeholder="Masukan NIM"></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td> 
+              <input type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+              <input type="radio" name="jk" value="Perempuan"> Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td>Jurusan</td>
+            <td>
+              <select name="jurusan">
+                <option>Teknik Informatika</option>
+                <option>Sistem Informasi</option>
+                <option>Manajemen Informatika</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Nilai Tugas</td>
+            <td> <input type="text" name="nilai"required placeholder="Nilai Tugas"></td>
+          </tr>
+          <tr>
+            <td>Nilai UTS</td>
+            <td> <input type="text" name="nilai"required placeholder="Nilai UTS"></td>
+          </tr>
+          <tr>
+            <td>Nilai UAS</td>
+            <td> <input type="text" name="nilai"required placeholder="Nilai UAS"></td>
+          </tr>
+        </table>
+        <div class="form-buttons">
+          <input type="submit" value="Simpan">
+          <input type="reset" value="Reset">
